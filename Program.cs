@@ -58,4 +58,34 @@
 
 
 
-// Напи
+// Задача 6, Напишите программу, которая скажет, является ли вводимое пользователем число четным
+
+// Console.Write(" Введите число:   ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// int chet = num1 % 2;
+// if ( chet == 0)
+// {
+//     Console.WriteLine("Число чётное");
+// }
+// else
+// {
+//     Console.WriteLine("Число нечётное");
+// }
+
+
+// Задача 8, напишите программу, которая на вход принимает число (N), а на выходе показывает все 
+// четные числа от 1 до (N)
+
+// Console.Write(" Введите число:   ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// int i = 0;
+// int num2 = 0;
+// while ( i <= num1 )
+// {
+//     num2 = i % 2;
+//     if ( num2 == 0)
+//     {
+//         Console.WriteLine(i);
+//     }
+//     i++;
+// }
